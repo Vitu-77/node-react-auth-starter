@@ -1,0 +1,24 @@
+{
+  "name": "dicast-backend",
+  "version": "alpha",
+  "main": "index.js",
+  "repository": "https://gitlab.com/vitu_77/dicast.git",
+  "author": "Victor Rodrigues",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  },
+  "scripts": {
+    "start": "nodemon ./api/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.1.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2"
+  }
+}
